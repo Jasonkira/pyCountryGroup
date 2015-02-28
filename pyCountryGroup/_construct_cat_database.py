@@ -34,6 +34,10 @@ fn_db = Config.get("output",'filename')
 
 wp.to_pickle(os.path.join(dir_db, fn_db))
 
+for i in wp.items:
+    wp[i].index.names=df.index.names
+    wp[i].to_csv(".".join([i,'tsv']),sep="\t", encoding="utf8")
+
 ##>>> wp.items
 ##Index([u'Unicode_UN', u'worldbank'], dtype='object')
 ##>>> wp['worldbank']['r_long']['TWN']
