@@ -7,7 +7,7 @@ import os
 
 __all__ = ["iso","iso2","ison","wb_cname","un_cname",\
            "wb_r_long","un_r_long", "wb_region", "un_region",\
-           "wb_i_long","wb_incomelevel","meta"]
+           "wb_i_long","wb_incomelevel","meta","wp"]
 __all__ = [str(u) for u in __all__]
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 

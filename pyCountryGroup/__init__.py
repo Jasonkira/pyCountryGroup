@@ -10,5 +10,6 @@ __version__ = '0.0.1'
 
 from .data import (iso,iso2,ison,wb_cname,un_cname,\
            wb_r_long,un_r_long, wb_region, un_region,\
-           wb_i_long,wb_incomelevel,meta)
+           wb_i_long,wb_incomelevel,\
+           meta, wp)
 
