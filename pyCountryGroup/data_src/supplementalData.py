@@ -59,7 +59,10 @@ map_right=list(df_containment_UN.comments.replace("Southern Europe, XK not in UN
 map_right_type=list(df_containment_UN.type) #.type
 for i,left in enumerate(map_left):
     for item_left in left:
-        categorization_UN[item_left]={"code":unicode(map_right_type[i]),"cat":unicode(map_right[i])}
+        if pd.isnull(map_right_type[i]) or pd.isnull(map_right[i]):
+            categorization_UN[item_left]={"code":map_right_type[i] ,"cat": map_right[i] }
+        else:
+            categorization_UN[item_left]={"code":unicode(map_right_type[i]),"cat":unicode(map_right[i])}
         
 #print categorization_UN['TW']
 df_cat_UN=pd.DataFrame(categorization_UN).transpose()
