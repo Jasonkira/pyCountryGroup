@@ -27,11 +27,9 @@ for i,f in enumerate(filename_list):
 ## Constructing panel
 wp=pd.Panel(data)
 ##>>> wp.items
-##Index([u'IH', u'IPop', u'IPv4', u'LP', u'PPPGDP'], dtype='object')
 
 dir_db = Config.get("Directory",'outcome')
 fn_db = Config.get("output",'filename')
-
 wp.to_pickle(os.path.join(dir_db, fn_db))
 
 for i in wp.items:

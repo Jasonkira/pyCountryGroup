@@ -1,0 +1,280 @@
+	name	GEC	ISO2	ISO	ISOn	STANAG	INTERNET	COMMENT
+0	Afghanistan	AF	AF	AFG	004	AFG	.af	
+1	Akrotiri	AX	-	-	-	-	-	
+2	Albania	AL	AL	ALB	008	ALB	.al	
+3	Algeria	AG	DZ	DZA	012	DZA	.dz	
+4	American Samoa	AQ	AS	ASM	016	ASM	.as	
+5	Andorra	AN	AD	AND	020	AND	.ad	
+6	Angola	AO	AO	AGO	024	AGO	.ao	
+7	Anguilla	AV	AI	AIA	660	AIA	.ai	
+8	Antarctica	AY	AQ	ATA	010	ATA	.aq	ISO defines as the territory south of 60 degrees south latitude
+9	Antigua and Barbuda	AC	AG	ATG	028	ATG	.ag	
+10	Argentina	AR	AR	ARG	032	ARG	.ar	
+11	Armenia	AM	AM	ARM	051	ARM	.am	
+12	Aruba	AA	AW	ABW	533	ABW	.aw	
+13	Ashmore and Cartier Islands	AT	-	-	-	AUS	-	ISO includes with Australia
+14	Australia	AS	AU	AUS	036	AUS	.au	ISO includes Ashmore and Cartier Islands, Coral Sea Islands
+15	Austria	AU	AT	AUT	040	AUT	.at	
+16	Azerbaijan	AJ	AZ	AZE	031	AZE	.az	
+17	Bahamas, The	BF	BS	BHS	044	BHS	.bs	
+18	Bahrain	BA	BH	BHR	048	BHR	.bh	
+19	Baker Island	FQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+20	Bangladesh	BG	BD	BGD	050	BGD	.bd	
+21	Barbados	BB	BB	BRB	052	BRB	.bb	
+22	Bassas da India	BS	-	-	-	-	-	administered as part of French Southern and Antarctic Lands; no ISO codes assigned
+23	Belarus	BO	BY	BLR	112	BLR	.by	
+24	Belgium	BE	BE	BEL	056	BEL	.be	
+25	Belize	BH	BZ	BLZ	084	BLZ	.bz	
+26	Benin	BN	BJ	BEN	204	BEN	.bj	
+27	Bermuda	BD	BM	BMU	060	BMU	.bm	
+28	Bhutan	BT	BT	BTN	064	BTN	.bt	
+29	Bolivia	BL	BO	BOL	068	BOL	.bo	
+30	Bosnia and Herzegovina	BK	BA	BIH	070	BIH	.ba	
+31	Botswana	BC	BW	BWA	072	BWA	.bw	
+32	Bouvet Island	BV	BV	BVT	074	BVT	.bv	
+33	Brazil	BR	BR	BRA	076	BRA	.br	
+34	British Indian Ocean Territory	IO	IO	IOT	086	IOT	.io	
+35	British Virgin Islands	VI	VG	VGB	092	VGB	.vg	
+36	Brunei	BX	BN	BRN	096	BRN	.bn	
+37	Bulgaria	BU	BG	BGR	100	BGR	.bg	
+38	Burkina Faso	UV	BF	BFA	854	BFA	.bf	
+39	Burma	BM	MM	MMR	104	MMR	.mm	ISO uses the name Myanmar
+40	Burundi	BY	BI	BDI	108	BDI	.bi	
+41	Cabo Verde	CV	CV	CPV	132	CPV	.cv	
+42	Cambodia	CB	KH	KHM	116	KHM	.kh	
+43	Cameroon	CM	CM	CMR	120	CMR	.cm	
+44	Canada	CA	CA	CAN	124	CAN	.ca	
+45	Cayman Islands	CJ	KY	CYM	136	CYM	.ky	
+46	Central African Republic	CT	CF	CAF	140	CAF	.cf	
+47	Chad	CD	TD	TCD	148	TCD	.td	
+48	Chile	CI	CL	CHL	152	CHL	.cl	
+49	China	CH	CN	CHN	156	CHN	.cn	see also Taiwan
+50	Christmas Island	KT	CX	CXR	162	CXR	.cx	
+51	Clipperton Island	IP	-	-	-	FYP	-	ISO includes with France
+52	Cocos (Keeling) Islands	CK	CC	CCK	166	AUS	.cc	
+53	Colombia	CO	CO	COL	170	COL	.co	
+54	Comoros	CN	KM	COM	174	COM	.km	
+55	Congo, Democratic Republic of the	CG	CD	COD	180	COD	.cd	formerly Zaire
+56	Congo, Republic of the	CF	CG	COG	178	COG	.cg	
+57	Cook Islands	CW	CK	COK	184	COK	.ck	
+58	Coral Sea Islands	CR	-	-	-	AUS	-	ISO includes with Australia
+59	Costa Rica	CS	CR	CRI	188	CRI	.cr	
+60	Cote d'Ivoire	IV	CI	CIV	384	CIV	.ci	
+61	Croatia	HR	HR	HRV	191	HRV	.hr	
+62	Cuba	CU	CU	CUB	192	CUB	.cu	
+63	Curacao	UC	CW	CUW	531	-	.cw	
+64	Cyprus	CY	CY	CYP	196	CYP	.cy	
+65	Czech Republic	EZ	CZ	CZE	203	CZE	.cz	
+66	Denmark	DA	DK	DNK	208	DNK	.dk	
+67	Dhekelia	DX	-	-	-	-	-	
+68	Djibouti	DJ	DJ	DJI	262	DJI	.dj	
+69	Dominica	DO	DM	DMA	212	DMA	.dm	
+70	Dominican Republic	DR	DO	DOM	214	DOM	.do	
+71	Ecuador	EC	EC	ECU	218	ECU	.ec	
+72	Egypt	EG	EG	EGY	818	EGY	.eg	
+73	El Salvador	ES	SV	SLV	222	SLV	.sv	
+74	Equatorial Guinea	EK	GQ	GNQ	226	GNQ	.gq	
+75	Eritrea	ER	ER	ERI	232	ERI	.er	
+76	Estonia	EN	EE	EST	233	EST	.ee	
+77	Ethiopia	ET	ET	ETH	231	ETH	.et	
+78	Europa Island	EU	-	-	-	-	-	administered as part of French Southern and Antarctic Lands; no ISO codes assigned
+79	Falkland Islands (Islas Malvinas)	FK	FK	FLK	238	FLK	.fk	
+80	Faroe Islands	FO	FO	FRO	234	FRO	.fo	
+81	Fiji	FJ	FJ	FJI	242	FJI	.fj	
+82	Finland	FI	FI	FIN	246	FIN	.fi	
+83	France	FR	FR	FRA	250	FRA	.fr	ISO includes metropolitan France along with the dependencies of Clipperton Island, French Guiana, French Polynesia, French Southern and Antarctic Lands, Guadeloupe, Martinique, Mayotte, New Caledonia, Reunion, Saint Pierre and Miquelon, Wallis and Futuna
+84	France, Metropolitan	-	FX	FXX	249	-	.fx	ISO limits to the European part of France
+85	French Guiana	FG	GF	GUF	254	GUF	.gf	
+86	French Polynesia	FP	PF	PYF	258	PYF	.pf	
+87	French Southern and Antarctic Lands	FS	TF	ATF	260	ATF	.tf	FIPS 10-4 does not include the French-claimed portion of Antarctica (Terre Adelie)
+88	Gabon	GB	GA	GAB	266	GAB	.ga	
+89	Gambia, The	GA	GM	GMB	270	GMB	.gm	
+90	Gaza Strip	GZ	PS	PSE	275	PSE	.ps	ISO identifies as Occupied Palestinian Territory
+91	Georgia	GG	GE	GEO	268	GEO	.ge	
+92	Germany	GM	DE	DEU	276	DEU	.de	
+93	Ghana	GH	GH	GHA	288	GHA	.gh	
+94	Gibraltar	GI	GI	GIB	292	GIB	.gi	
+95	Glorioso Islands	GO	-	-	-	-	-	administered as part of French Southern and Antarctic Lands; no ISO codes assigned
+96	Greece	GR	GR	GRC	300	GRC	.gr	For its internal communications, the  European Union recommends the use of the code EL in lieu of the ISO 3166-2 code of GR
+97	Greenland	GL	GL	GRL	304	GRL	.gl	
+98	Grenada	GJ	GD	GRD	308	GRD	.gd	
+99	Guadeloupe	GP	GP	GLP	312	GLP	.gp	
+100	Guam	GQ	GU	GUM	316	GUM	.gu	
+101	Guatemala	GT	GT	GTM	320	GTM	.gt	
+102	Guernsey	GK	GG	GGY	831	UK	.gg	
+103	Guinea	GV	GN	GIN	324	GIN	.gn	
+104	Guinea-Bissau	PU	GW	GNB	624	GNB	.gw	
+105	Guyana	GY	GY	GUY	328	GUY	.gy	
+106	Haiti	HA	HT	HTI	332	HTI	.ht	
+107	Heard Island and McDonald Islands	HM	HM	HMD	334	HMD	.hm	
+108	Holy See (Vatican City)	VT	VA	VAT	336	VAT	.va	
+109	Honduras	HO	HN	HND	340	HND	.hn	
+110	Hong Kong	HK	HK	HKG	344	HKG	.hk	
+111	Howland Island	HQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+112	Hungary	HU	HU	HUN	348	HUN	.hu	
+113	Iceland	IC	IS	ISL	352	ISL	.is	
+114	India	IN	IN	IND	356	IND	.in	
+115	Indonesia	ID	ID	IDN	360	IDN	.id	
+116	Iran	IR	IR	IRN	364	IRN	.ir	
+117	Iraq	IZ	IQ	IRQ	368	IRQ	.iq	
+118	Ireland	EI	IE	IRL	372	IRL	.ie	
+119	Isle of Man	IM	IM	IMN	833	UK	.im	
+120	Israel	IS	IL	ISR	376	ISR	.il	
+121	Italy	IT	IT	ITA	380	ITA	.it	
+122	Jamaica	JM	JM	JAM	388	JAM	.jm	
+123	Jan Mayen	JN	-	-	-	SJM	-	ISO includes with Svalbard
+124	Japan	JA	JP	JPN	392	JPN	.jp	
+125	Jarvis Island	DQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+126	Jersey	JE	JE	JEY	832	UK	.je	
+127	Johnston Atoll	JQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+128	Jordan	JO	JO	JOR	400	JOR	.jo	
+129	Juan de Nova Island	JU	-	-	-	-	-	administered as part of French Southern and Antarctic Lands; no ISO codes assigned
+130	Kazakhstan	KZ	KZ	KAZ	398	KAZ	.kz	
+131	Kenya	KE	KE	KEN	404	KEN	.ke	
+132	Kingman Reef	KQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+133	Kiribati	KR	KI	KIR	296	KIR	.ki	
+134	Korea, North	KN	KP	PRK	408	PRK	.kp	
+135	Korea, South	KS	KR	KOR	410	KOR	.kr	
+136	Kosovo	KV	XK	XKS	-	-	-	XK and XKS are  ISO 3166 user assigned codes; ISO 3166 Maintenace Authority has not assigned codes
+137	Kuwait	KU	KW	KWT	414	KWT	.kw	
+138	Kyrgyzstan	KG	KG	KGZ	417	KGZ	.kg	
+139	Laos	LA	LA	LAO	418	LAO	.la	
+140	Latvia	LG	LV	LVA	428	LVA	.lv	
+141	Lebanon	LE	LB	LBN	422	LBN	.lb	
+142	Lesotho	LT	LS	LSO	426	LSO	.ls	
+143	Liberia	LI	LR	LBR	430	LBR	.lr	
+144	Libya	LY	LY	LBY	434	LBY	.ly	
+145	Liechtenstein	LS	LI	LIE	438	LIE	.li	
+146	Lithuania	LH	LT	LTU	440	LTU	.lt	
+147	Luxembourg	LU	LU	LUX	442	LUX	.lu	
+148	Macau	MC	MO	MAC	446	MAC	.mo	
+149	Macedonia	MK	MK	MKD	807	FYR	.mk	
+150	Madagascar	MA	MG	MDG	450	MDG	.mg	
+151	Malawi	MI	MW	MWI	454	MWI	.mw	
+152	Malaysia	MY	MY	MYS	458	MYS	.my	
+153	Maldives	MV	MV	MDV	462	MDV	.mv	
+154	Mali	ML	ML	MLI	466	MLI	.ml	
+155	Malta	MT	MT	MLT	470	MLT	.mt	
+156	Marshall Islands	RM	MH	MHL	584	MHL	.mh	
+157	Martinique	MB	MQ	MTQ	474	MTQ	.mq	
+158	Mauritania	MR	MR	MRT	478	MRT	.mr	
+159	Mauritius	MP	MU	MUS	480	MUS	.mu	
+160	Mayotte	MF	YT	MYT	175	FRA	.yt	
+161	Mexico	MX	MX	MEX	484	MEX	.mx	
+162	Micronesia, Federated States of	FM	FM	FSM	583	FSM	.fm	
+163	Midway Islands	MQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+164	Moldova	MD	MD	MDA	498	MDA	.md	
+165	Monaco	MN	MC	MCO	492	MCO	.mc	
+166	Mongolia	MG	MN	MNG	496	MNG	.mn	
+167	Montenegro	MJ	ME	MNE	499	MNE	.me	
+168	Montserrat	MH	MS	MSR	500	MSR	.ms	
+169	Morocco	MO	MA	MAR	504	MAR	.ma	
+170	Mozambique	MZ	MZ	MOZ	508	MOZ	.mz	
+171	Myanmar	-	-	-	-	-	-	see Burma
+172	Namibia	WA	NA	NAM	516	NAM	.na	
+173	Nauru	NR	NR	NRU	520	NRU	.nr	
+174	Navassa Island	BQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+175	Nepal	NP	NP	NPL	524	NPL	.np	
+176	Netherlands	NL	NL	NLD	528	NLD	.nl	
+177	Netherlands Antilles	NT				ANT	.an	disestablished in October 2010 this entity no longer exists; ISO deleted the codes in December 2010
+178	New Caledonia	NC	NC	NCL	540	NCL	.nc	
+179	New Zealand	NZ	NZ	NZL	554	NZL	.nz	
+180	Nicaragua	NU	NI	NIC	558	NIC	.ni	
+181	Niger	NG	NE	NER	562	NER	.ne	
+182	Nigeria	NI	NG	NGA	566	NGA	.ng	
+183	Niue	NE	NU	NIU	570	NIU	.nu	
+184	Norfolk Island	NF	NF	NFK	574	NFK	.nf	
+185	Northern Mariana Islands	CQ	MP	MNP	580	MNP	.mp	
+186	Norway	NO	NO	NOR	578	NOR	.no	
+187	Oman	MU	OM	OMN	512	OMN	.om	
+188	Pakistan	PK	PK	PAK	586	PAK	.pk	
+189	Palau	PS	PW	PLW	585	PLW	.pw	
+190	Palmyra Atoll	LQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+191	Panama	PM	PA	PAN	591	PAN	.pa	
+192	Papua New Guinea	PP	PG	PNG	598	PNG	.pg	
+193	Paracel Islands	PF	-	-	-	-	-	
+194	Paraguay	PA	PY	PRY	600	PRY	.py	
+195	Peru	PE	PE	PER	604	PER	.pe	
+196	Philippines	RP	PH	PHL	608	PHL	.ph	
+197	Pitcairn Islands	PC	PN	PCN	612	PCN	.pn	
+198	Poland	PL	PL	POL	616	POL	.pl	
+199	Portugal	PO	PT	PRT	620	PRT	.pt	
+200	Puerto Rico	RQ	PR	PRI	630	PRI	.pr	
+201	Qatar	QA	QA	QAT	634	QAT	.qa	
+202	Reunion	RE	RE	REU	638	REU	.re	
+203	Romania	RO	RO	ROU	642	ROU	.ro	
+204	Russia	RS	RU	RUS	643	RUS	.ru	
+205	Rwanda	RW	RW	RWA	646	RWA	.rw	
+206	Saint Barthelemy	TB	BL	BLM	652	-	.bl	ccTLD  .fr and .gp may also be used
+207	Saint Helena, Ascension, and Tristan da Cunha	SH	SH	SHN	654	SHN	.sh	includes Saint Helena Island, Ascension Island, and the Tristan da Cunha archipelago
+208	Saint Kitts and Nevis	SC	KN	KNA	659	KNA	.kn	
+209	Saint Lucia	ST	LC	LCA	662	LCA	.lc	
+210	Saint Martin	RN	MF	MAF	663	-	.mf	ccTLD  .fr and .gp may also be used
+211	Saint Pierre and Miquelon	SB	PM	SPM	666	SPM	.pm	
+212	Saint Vincent and the Grenadines	VC	VC	VCT	670	VCT	.vc	
+213	Samoa	WS	WS	WSM	882	WSM	.ws	
+214	San Marino	SM	SM	SMR	674	SMR	.sm	
+215	Sao Tome and Principe	TP	ST	STP	678	STP	.st	
+216	Saudi Arabia	SA	SA	SAU	682	SAU	.sa	
+217	Senegal	SG	SN	SEN	686	SEN	.sn	
+218	Serbia	RI	RS	SRB	688	-	.rs	
+219	Seychelles	SE	SC	SYC	690	SYC	.sc	
+220	Sierra Leone	SL	SL	SLE	694	SLE	.sl	
+221	Singapore	SN	SG	SGP	702	SGP	.sg	
+222	Sint Maarten	NN	SX	SXM	534	-	.sx	
+223	Slovakia	LO	SK	SVK	703	SVK	.sk	
+224	Slovenia	SI	SI	SVN	705	SVN	.si	
+225	Solomon Islands	BP	SB	SLB	090	SLB	.sb	
+226	Somalia	SO	SO	SOM	706	SOM	.so	
+227	South Africa	SF	ZA	ZAF	710	ZAF	.za	
+228	South Georgia and the Islands	SX	GS	SGS	239	SGS	.gs	
+229	South Sudan	OD	SS	SSD	728	-	-	IANA has designated .ss as the ccTLD for South Sudan, however it has not been activated in DNS root zone
+230	Spain	SP	ES	ESP	724	ESP	.es	
+231	Spratly Islands	PG	-	-	-	-	-	
+232	Sri Lanka	CE	LK	LKA	144	LKA	.lk	
+233	Sudan	SU	SD	SDN	729	SDN	.sd	
+234	Suriname	NS	SR	SUR	740	SUR	.sr	
+235	Svalbard	SV	SJ	SJM	744	SJM	.sj	ISO includes Jan Mayen
+236	Swaziland	WZ	SZ	SWZ	748	SWZ	.sz	
+237	Sweden	SW	SE	SWE	752	SWE	.se	
+238	Switzerland	SZ	CH	CHE	756	CHE	.ch	
+239	Syria	SY	SY	SYR	760	SYR	.sy	
+240	Taiwan	TW	TW	TWN	158	TWN	.tw	
+241	Tajikistan	TI	TJ	TJK	762	TJK	.tj	
+242	Tanzania	TZ	TZ	TZA	834	TZA	.tz	
+243	Thailand	TH	TH	THA	764	THA	.th	
+244	Timor-Leste	TT	TL	TLS	626	TLS	.tl	
+245	Togo	TO	TG	TGO	768	TGO	.tg	
+246	Tokelau	TL	TK	TKL	772	TKL	.tk	
+247	Tonga	TN	TO	TON	776	TON	.to	
+248	Trinidad and Tobago	TD	TT	TTO	780	TTO	.tt	
+249	Tromelin Island	TE	-	-	-	-	-	administered as part of French Southern and Antarctic Lands; no ISO codes assigned
+250	Tunisia	TS	TN	TUN	788	TUN	.tn	
+251	Turkey	TU	TR	TUR	792	TUR	.tr	
+252	Turkmenistan	TX	TM	TKM	795	TKM	.tm	
+253	Turks and Caicos Islands	TK	TC	TCA	796	TCA	.tc	
+254	Tuvalu	TV	TV	TUV	798	TUV	.tv	
+255	Uganda	UG	UG	UGA	800	UGA	.ug	
+256	Ukraine	UP	UA	UKR	804	UKR	.ua	
+257	United Arab Emirates	AE	AE	ARE	784	ARE	.ae	
+258	United Kingdom	UK	GB	GBR	826	GBR	.uk	for its internal communications, the  European Union recommends the use of the code UK in lieu of the ISO 3166-2 code of GB
+259	United States	US	US	USA	840	USA	.us	
+260	United States Minor Outlying Islands	-	UM	UMI	581	-	.um	ISO includes Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Islands, Navassa Island, Palmyra Atoll, Wake Island
+261	Uruguay	UY	UY	URY	858	URY	.uy	
+262	Uzbekistan	UZ	UZ	UZB	860	UZB	.uz	
+263	Vanuatu	NH	VU	VUT	548	VUT	.vu	
+264	Venezuela	VE	VE	VEN	862	VEN	.ve	
+265	Vietnam	VM	VN	VNM	704	VNM	.vn	
+266	Virgin Islands	VQ	VI	VIR	850	VIR	.vi	
+267	Virgin Islands (UK)	-	-	-	-	-	.vg	see British Virgin Islands
+268	Virgin Islands (US)	-	-	-	-	-	.vi	see Virgin Islands
+269	Wake Island	WQ	-	-	-	UMI	-	ISO includes with the US Minor Outlying Islands
+270	Wallis and Futuna	WF	WF	WLF	876	WLF	.wf	
+271	West Bank	WE	PS	PSE	275	PSE	.ps	ISO identifies as Occupied Palestinian Territory
+272	Western Sahara	WI	EH	ESH	732	ESH	.eh	
+273	Western Samoa	-	-	-	-	-	.ws	see Samoa
+274	World	-	-	-	-	-	-	the Factbook uses the W data code from DIAM 65-18 Geopolitical Data Elements and Related Features, Data Standard No. 3, December 1994, published by the Defense Intelligence Agency
+275	Yemen	YM	YE	YEM	887	YEM	.ye	
+276	Zaire	-	-	-	-	-	-	see Democratic Republic of the Congo
+277	Zambia	ZA	ZM	ZMB	894	ZMB	.zm	
+278	Zimbabwe	ZI	ZW	ZWE	716	ZWE	.zw	
