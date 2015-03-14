@@ -87,6 +87,11 @@ df['categorization_UN']=[df_cat_UN["cat"].get(x, np.nan) for x in df.index]
 
 df=df.reset_index()
 
+
+## UN higher category just under the World
+under_the_World_UN=df_cat_UN[df_cat_UN.cat=="World"].index
+df_cat_UN[df_cat_UN.code.isin(under_the_World_UN)].index
+
 ##>>> list(df.columns)
 ##['typ2','comments', 'gdp', 'literacyPercent', 'population', 'alpha3', 'numeric', 'cat_UN', 'categorization_UN']
 df.columns=['countrycode2','countryname', 'gdp', 'literacyPercent', 'population', 'countrycode', 'numeric', 'region', 'r_long']
@@ -105,6 +110,8 @@ fileds_selected_categories=['countrycode', 'countryname', 'countrycode2', 'numer
 
 df=df[fileds_selected_categories].set_index("countrycode")
 
+df['region_h']=[df_cat_UN[df_cat_UN.code.isin(under_the_World_UN)]['cat'].get(x, None) for x in df['region'] ]
+
 df.to_pickle('Unicode_UN.pkl')
 
-print df["countryname"]["ALA"]
+#print df["countryname"]["ALA"]

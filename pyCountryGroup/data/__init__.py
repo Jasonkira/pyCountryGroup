@@ -6,7 +6,7 @@ import pandas as pd
 import os
 
 __all__ = ["iso","iso2","ison","wb_cname","un_cname",\
-           "wb_r_long","un_r_long", "wb_region", "un_region",\
+           "wb_r_long","un_r_long", "un_r_long_detail", "wb_region", "un_region",\
            "wb_i_long","wb_incomelevel","meta","wp"]
 __all__ = [str(u) for u in __all__]
 _ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -23,7 +23,8 @@ wb_cname=wp['worldbank']['countryname']
 un_cname=wp['Unicode_UN']['countryname']
 
 wb_r_long=wp['worldbank']['r_long']
-un_r_long=wp['Unicode_UN']['r_long']
+un_r_long=wp['Unicode_UN']['region_h']      #UN region just under the world
+un_r_long_detail=wp['Unicode_UN']['r_long']
 cia_r_long=wp['CIA']['r_long']
 wb_region=wp['worldbank']['region']
 un_region=wp['Unicode_UN']['region']
