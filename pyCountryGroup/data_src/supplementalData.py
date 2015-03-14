@@ -94,7 +94,7 @@ df_cat_UN[df_cat_UN.code.isin(under_the_World_UN)].index
 
 ##>>> list(df.columns)
 ##['typ2','comments', 'gdp', 'literacyPercent', 'population', 'alpha3', 'numeric', 'cat_UN', 'categorization_UN']
-df.columns=['countrycode2','countryname', 'gdp', 'literacyPercent', 'population', 'countrycode', 'numeric', 'region', 'r_long']
+df.columns=['countrycode2','countryname', 'gdp', 'literacyPercent', 'population', 'countrycode', 'numeric', 'region', 'r_long_d']
 
 
 ## Dealing with those without ISO alpha_3 http://www.fact-index.com/i/is/iso_3166_1_alpha_2.html
@@ -106,11 +106,11 @@ df.loc[pd.isnull(df.countrycode),'countrycode']="_"+df[pd.isnull(df.countrycode)
 
 
 ##
-fileds_selected_categories=['countrycode', 'countryname', 'countrycode2', 'numeric', 'region', 'r_long']
+fileds_selected_categories=['countrycode', 'countryname', 'countrycode2', 'numeric', 'region', 'r_long', 'r_long_d']
+
+df['r_long']=[df_cat_UN[df_cat_UN.code.isin(under_the_World_UN)]['cat'].get(x, None) for x in df['region'] ]
 
 df=df[fileds_selected_categories].set_index("countrycode")
-
-df['region_h']=[df_cat_UN[df_cat_UN.code.isin(under_the_World_UN)]['cat'].get(x, None) for x in df['region'] ]
 
 df.to_pickle('Unicode_UN.pkl')
 

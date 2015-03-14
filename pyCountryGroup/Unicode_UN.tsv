@@ -1,267 +1,267 @@
-countrycode	countrycode2	countryname	i_long	incomelevel	numeric	r_long	region	region_h
-ABW	AW	Aruba			533	Caribbean	029	Americas
+countrycode	countrycode2	countryname	i_long	incomelevel	numeric	r_long	r_long_d	region
+ABW	AW	Aruba			533	Americas	Caribbean	029
 ADO								
-AFG	AF	Afghanistan			004	Southern Asia	034	Asia
-AGO	AO	Angola			024	Middle Africa	017	Africa
-AIA	AI	Anguilla			660	Caribbean	029	Americas
-ALA	AX	Åland Islands			248	Northern Europe	154	Europe
-ALB	AL	Albania			008	Southern Europe	039	Europe
-AND	AD	Andorra			020	Southern Europe	039	Europe
-ARE	AE	United Arab Emirates			784	Western Asia	145	Asia
-ARG	AR	Argentina			032	South America	005	Americas
-ARM	AM	Armenia			051	Western Asia	145	Asia
-ASC	AC	Ascension Island				Outlying Oceania	QO	Oceania
-ASM	AS	American Samoa			016	Polynesia	061	Oceania
-ATA	AQ	Antarctica			010	Outlying Oceania	QO	Oceania
-ATF	TF	French Southern Territories			260	Outlying Oceania	QO	Oceania
-ATG	AG	Antigua & Barbuda			028	Caribbean	029	Americas
-AUS	AU	Australia			036	Australia and New Zealand	053	Oceania
-AUT	AT	Austria			040	Western Europe	155	Europe
-AZE	AZ	Azerbaijan			031	Western Asia	145	Asia
-BDI	BI	Burundi			108	Eastern Africa	014	Africa
-BEL	BE	Belgium			056	Western Europe	155	Europe
-BEN	BJ	Benin			204	Western Africa	011	Africa
-BES	BQ	Caribbean Netherlands			535	Caribbean	029	Americas
-BFA	BF	Burkina Faso			854	Western Africa	011	Africa
-BGD	BD	Bangladesh			050	Southern Asia	034	Asia
-BGR	BG	Bulgaria			100	Eastern Europe	151	Europe
-BHR	BH	Bahrain			048	Western Asia	145	Asia
-BHS	BS	Bahamas			044	Caribbean	029	Americas
-BIH	BA	Bosnia & Herzegovina			070	Southern Europe	039	Europe
-BLM	BL	St. Barthélemy			652	Caribbean	029	Americas
-BLR	BY	Belarus			112	Eastern Europe	151	Europe
-BLZ	BZ	Belize			084	Central America	013	Americas
-BMU	BM	Bermuda			060	Northern America	021	Americas
-BOL	BO	Bolivia			068	South America	005	Americas
-BRA	BR	Brazil			076	South America	005	Americas
-BRB	BB	Barbados			052	Caribbean	029	Americas
-BRN	BN	Brunei			096	South-Eastern Asia	035	Asia
-BTN	BT	Bhutan			064	Southern Asia	034	Asia
-BVT	BV	Bouvet Island			074	Outlying Oceania	QO	Oceania
-BWA	BW	Botswana			072	Southern Africa	018	Africa
-CAF	CF	Central African Republic			140	Middle Africa	017	Africa
-CAN	CA	Canada			124	Northern America	021	Americas
-CCK	CC	Cocos (Keeling) Islands			166	Outlying Oceania	QO	Oceania
-CHE	CH	Switzerland			756	Western Europe	155	Europe
+AFG	AF	Afghanistan			004	Asia	Southern Asia	034
+AGO	AO	Angola			024	Africa	Middle Africa	017
+AIA	AI	Anguilla			660	Americas	Caribbean	029
+ALA	AX	Åland Islands			248	Europe	Northern Europe	154
+ALB	AL	Albania			008	Europe	Southern Europe	039
+AND	AD	Andorra			020	Europe	Southern Europe	039
+ARE	AE	United Arab Emirates			784	Asia	Western Asia	145
+ARG	AR	Argentina			032	Americas	South America	005
+ARM	AM	Armenia			051	Asia	Western Asia	145
+ASC	AC	Ascension Island				Oceania	Outlying Oceania	QO
+ASM	AS	American Samoa			016	Oceania	Polynesia	061
+ATA	AQ	Antarctica			010	Oceania	Outlying Oceania	QO
+ATF	TF	French Southern Territories			260	Oceania	Outlying Oceania	QO
+ATG	AG	Antigua & Barbuda			028	Americas	Caribbean	029
+AUS	AU	Australia			036	Oceania	Australia and New Zealand	053
+AUT	AT	Austria			040	Europe	Western Europe	155
+AZE	AZ	Azerbaijan			031	Asia	Western Asia	145
+BDI	BI	Burundi			108	Africa	Eastern Africa	014
+BEL	BE	Belgium			056	Europe	Western Europe	155
+BEN	BJ	Benin			204	Africa	Western Africa	011
+BES	BQ	Caribbean Netherlands			535	Americas	Caribbean	029
+BFA	BF	Burkina Faso			854	Africa	Western Africa	011
+BGD	BD	Bangladesh			050	Asia	Southern Asia	034
+BGR	BG	Bulgaria			100	Europe	Eastern Europe	151
+BHR	BH	Bahrain			048	Asia	Western Asia	145
+BHS	BS	Bahamas			044	Americas	Caribbean	029
+BIH	BA	Bosnia & Herzegovina			070	Europe	Southern Europe	039
+BLM	BL	St. Barthélemy			652	Americas	Caribbean	029
+BLR	BY	Belarus			112	Europe	Eastern Europe	151
+BLZ	BZ	Belize			084	Americas	Central America	013
+BMU	BM	Bermuda			060	Americas	Northern America	021
+BOL	BO	Bolivia			068	Americas	South America	005
+BRA	BR	Brazil			076	Americas	South America	005
+BRB	BB	Barbados			052	Americas	Caribbean	029
+BRN	BN	Brunei			096	Asia	South-Eastern Asia	035
+BTN	BT	Bhutan			064	Asia	Southern Asia	034
+BVT	BV	Bouvet Island			074	Oceania	Outlying Oceania	QO
+BWA	BW	Botswana			072	Africa	Southern Africa	018
+CAF	CF	Central African Republic			140	Africa	Middle Africa	017
+CAN	CA	Canada			124	Americas	Northern America	021
+CCK	CC	Cocos (Keeling) Islands			166	Oceania	Outlying Oceania	QO
+CHE	CH	Switzerland			756	Europe	Western Europe	155
 CHI								
-CHL	CL	Chile			152	South America	005	Americas
-CHN	CN	China			156	Eastern Asia	030	Asia
-CIV	CI	Côte d’Ivoire			384	Western Africa	011	Africa
-CMR	CM	Cameroon			120	Middle Africa	017	Africa
-COD	CD	Congo - Kinshasa			180	Middle Africa	017	Africa
-COG	CG	Congo - Brazzaville			178	Middle Africa	017	Africa
-COK	CK	Cook Islands			184	Polynesia	061	Oceania
-COL	CO	Colombia			170	South America	005	Americas
-COM	KM	Comoros			174	Eastern Africa	014	Africa
-CPT	CP	Clipperton Island				Outlying Oceania	QO	Oceania
-CPV	CV	Cape Verde			132	Western Africa	011	Africa
-CRI	CR	Costa Rica			188	Central America	013	Americas
-CUB	CU	Cuba			192	Caribbean	029	Americas
-CUW	CW	Curaçao			531	Caribbean	029	Americas
-CXR	CX	Christmas Island			162	Outlying Oceania	QO	Oceania
-CYM	KY	Cayman Islands			136	Caribbean	029	Americas
-CYP	CY	Cyprus			196	Western Asia	145	Asia
-CZE	CZ	Czech Republic			203	Eastern Europe	151	Europe
-DEU	DE	Germany			276	Western Europe	155	Europe
-DGA	DG	Diego Garcia				Outlying Oceania	QO	Oceania
-DJI	DJ	Djibouti			262	Eastern Africa	014	Africa
-DMA	DM	Dominica			212	Caribbean	029	Americas
-DNK	DK	Denmark			208	Northern Europe	154	Europe
-DOM	DO	Dominican Republic			214	Caribbean	029	Americas
-DZA	DZ	Algeria			012	Northern Africa	015	Africa
-ECU	EC	Ecuador			218	South America	005	Americas
-EGY	EG	Egypt			818	Northern Africa	015	Africa
-ERI	ER	Eritrea			232	Eastern Africa	014	Africa
-ESH	EH	Western Sahara			732	Northern Africa	015	Africa
-ESP	ES	Spain			724	Southern Europe	039	Europe
-EST	EE	Estonia			233	Northern Europe	154	Europe
-ETH	ET	Ethiopia			231	Eastern Africa	014	Africa
-FIN	FI	Finland			246	Northern Europe	154	Europe
-FJI	FJ	Fiji			242	Melanesia	054	Oceania
-FLK	FK	Falkland Islands			238	South America	005	Americas
-FRA	FR	France			250	Western Europe	155	Europe
-FRO	FO	Faroe Islands			234	Northern Europe	154	Europe
-FSM	FM	Micronesia			583	Micronesia	057	Oceania
-GAB	GA	Gabon			266	Middle Africa	017	Africa
-GBR	GB	United Kingdom			826	Northern Europe	154	Europe
-GEO	GE	Georgia			268	Western Asia	145	Asia
-GGY	GG	Guernsey			831	Northern Europe	154	Europe
-GHA	GH	Ghana			288	Western Africa	011	Africa
-GIB	GI	Gibraltar			292	Southern Europe	039	Europe
-GIN	GN	Guinea			324	Western Africa	011	Africa
-GLP	GP	Guadeloupe			312	Caribbean	029	Americas
-GMB	GM	Gambia			270	Western Africa	011	Africa
-GNB	GW	Guinea-Bissau			624	Western Africa	011	Africa
-GNQ	GQ	Equatorial Guinea			226	Middle Africa	017	Africa
-GRC	GR	Greece			300	Southern Europe	039	Europe
-GRD	GD	Grenada			308	Caribbean	029	Americas
-GRL	GL	Greenland			304	Northern America	021	Americas
-GTM	GT	Guatemala			320	Central America	013	Americas
-GUF	GF	French Guiana			254	South America	005	Americas
-GUM	GU	Guam			316	Micronesia	057	Oceania
-GUY	GY	Guyana			328	South America	005	Americas
-HKG	HK	Hong Kong SAR China			344	Eastern Asia	030	Asia
-HMD	HM	Heard & McDonald Islands			334	Outlying Oceania	QO	Oceania
-HND	HN	Honduras			340	Central America	013	Americas
-HRV	HR	Croatia			191	Southern Europe	039	Europe
-HTI	HT	Haiti			332	Caribbean	029	Americas
-HUN	HU	Hungary			348	Eastern Europe	151	Europe
-IDN	ID	Indonesia			360	South-Eastern Asia	035	Asia
-IMN	IM	Isle of Man			833	Northern Europe	154	Europe
+CHL	CL	Chile			152	Americas	South America	005
+CHN	CN	China			156	Asia	Eastern Asia	030
+CIV	CI	Côte d’Ivoire			384	Africa	Western Africa	011
+CMR	CM	Cameroon			120	Africa	Middle Africa	017
+COD	CD	Congo - Kinshasa			180	Africa	Middle Africa	017
+COG	CG	Congo - Brazzaville			178	Africa	Middle Africa	017
+COK	CK	Cook Islands			184	Oceania	Polynesia	061
+COL	CO	Colombia			170	Americas	South America	005
+COM	KM	Comoros			174	Africa	Eastern Africa	014
+CPT	CP	Clipperton Island				Oceania	Outlying Oceania	QO
+CPV	CV	Cape Verde			132	Africa	Western Africa	011
+CRI	CR	Costa Rica			188	Americas	Central America	013
+CUB	CU	Cuba			192	Americas	Caribbean	029
+CUW	CW	Curaçao			531	Americas	Caribbean	029
+CXR	CX	Christmas Island			162	Oceania	Outlying Oceania	QO
+CYM	KY	Cayman Islands			136	Americas	Caribbean	029
+CYP	CY	Cyprus			196	Asia	Western Asia	145
+CZE	CZ	Czech Republic			203	Europe	Eastern Europe	151
+DEU	DE	Germany			276	Europe	Western Europe	155
+DGA	DG	Diego Garcia				Oceania	Outlying Oceania	QO
+DJI	DJ	Djibouti			262	Africa	Eastern Africa	014
+DMA	DM	Dominica			212	Americas	Caribbean	029
+DNK	DK	Denmark			208	Europe	Northern Europe	154
+DOM	DO	Dominican Republic			214	Americas	Caribbean	029
+DZA	DZ	Algeria			012	Africa	Northern Africa	015
+ECU	EC	Ecuador			218	Americas	South America	005
+EGY	EG	Egypt			818	Africa	Northern Africa	015
+ERI	ER	Eritrea			232	Africa	Eastern Africa	014
+ESH	EH	Western Sahara			732	Africa	Northern Africa	015
+ESP	ES	Spain			724	Europe	Southern Europe	039
+EST	EE	Estonia			233	Europe	Northern Europe	154
+ETH	ET	Ethiopia			231	Africa	Eastern Africa	014
+FIN	FI	Finland			246	Europe	Northern Europe	154
+FJI	FJ	Fiji			242	Oceania	Melanesia	054
+FLK	FK	Falkland Islands			238	Americas	South America	005
+FRA	FR	France			250	Europe	Western Europe	155
+FRO	FO	Faroe Islands			234	Europe	Northern Europe	154
+FSM	FM	Micronesia			583	Oceania	Micronesia	057
+GAB	GA	Gabon			266	Africa	Middle Africa	017
+GBR	GB	United Kingdom			826	Europe	Northern Europe	154
+GEO	GE	Georgia			268	Asia	Western Asia	145
+GGY	GG	Guernsey			831	Europe	Northern Europe	154
+GHA	GH	Ghana			288	Africa	Western Africa	011
+GIB	GI	Gibraltar			292	Europe	Southern Europe	039
+GIN	GN	Guinea			324	Africa	Western Africa	011
+GLP	GP	Guadeloupe			312	Americas	Caribbean	029
+GMB	GM	Gambia			270	Africa	Western Africa	011
+GNB	GW	Guinea-Bissau			624	Africa	Western Africa	011
+GNQ	GQ	Equatorial Guinea			226	Africa	Middle Africa	017
+GRC	GR	Greece			300	Europe	Southern Europe	039
+GRD	GD	Grenada			308	Americas	Caribbean	029
+GRL	GL	Greenland			304	Americas	Northern America	021
+GTM	GT	Guatemala			320	Americas	Central America	013
+GUF	GF	French Guiana			254	Americas	South America	005
+GUM	GU	Guam			316	Oceania	Micronesia	057
+GUY	GY	Guyana			328	Americas	South America	005
+HKG	HK	Hong Kong SAR China			344	Asia	Eastern Asia	030
+HMD	HM	Heard & McDonald Islands			334	Oceania	Outlying Oceania	QO
+HND	HN	Honduras			340	Americas	Central America	013
+HRV	HR	Croatia			191	Europe	Southern Europe	039
+HTI	HT	Haiti			332	Americas	Caribbean	029
+HUN	HU	Hungary			348	Europe	Eastern Europe	151
+IDN	ID	Indonesia			360	Asia	South-Eastern Asia	035
+IMN	IM	Isle of Man			833	Europe	Northern Europe	154
 IMY								
-IND	IN	India			356	Southern Asia	034	Asia
-IOT	IO	British Indian Ocean Territory			086	Outlying Oceania	QO	Oceania
-IRL	IE	Ireland			372	Northern Europe	154	Europe
-IRN	IR	Iran			364	Southern Asia	034	Asia
-IRQ	IQ	Iraq			368	Western Asia	145	Asia
-ISL	IS	Iceland			352	Northern Europe	154	Europe
-ISR	IL	Israel			376	Western Asia	145	Asia
-ITA	IT	Italy			380	Southern Europe	039	Europe
-JAM	JM	Jamaica			388	Caribbean	029	Americas
-JEY	JE	Jersey			832	Northern Europe	154	Europe
-JOR	JO	Jordan			400	Western Asia	145	Asia
-JPN	JP	Japan			392	Eastern Asia	030	Asia
-KAZ	KZ	Kazakhstan			398	Central Asia	143	Asia
-KEN	KE	Kenya			404	Eastern Africa	014	Africa
-KGZ	KG	Kyrgyzstan			417	Central Asia	143	Asia
-KHM	KH	Cambodia			116	South-Eastern Asia	035	Asia
-KIR	KI	Kiribati			296	Micronesia	057	Oceania
-KNA	KN	St. Kitts & Nevis			659	Caribbean	029	Americas
-KOR	KR	South Korea			410	Eastern Asia	030	Asia
+IND	IN	India			356	Asia	Southern Asia	034
+IOT	IO	British Indian Ocean Territory			086	Oceania	Outlying Oceania	QO
+IRL	IE	Ireland			372	Europe	Northern Europe	154
+IRN	IR	Iran			364	Asia	Southern Asia	034
+IRQ	IQ	Iraq			368	Asia	Western Asia	145
+ISL	IS	Iceland			352	Europe	Northern Europe	154
+ISR	IL	Israel			376	Asia	Western Asia	145
+ITA	IT	Italy			380	Europe	Southern Europe	039
+JAM	JM	Jamaica			388	Americas	Caribbean	029
+JEY	JE	Jersey			832	Europe	Northern Europe	154
+JOR	JO	Jordan			400	Asia	Western Asia	145
+JPN	JP	Japan			392	Asia	Eastern Asia	030
+KAZ	KZ	Kazakhstan			398	Asia	Central Asia	143
+KEN	KE	Kenya			404	Africa	Eastern Africa	014
+KGZ	KG	Kyrgyzstan			417	Asia	Central Asia	143
+KHM	KH	Cambodia			116	Asia	South-Eastern Asia	035
+KIR	KI	Kiribati			296	Oceania	Micronesia	057
+KNA	KN	St. Kitts & Nevis			659	Americas	Caribbean	029
+KOR	KR	South Korea			410	Asia	Eastern Asia	030
 KSV								
-KWT	KW	Kuwait			414	Western Asia	145	Asia
-LAO	LA	Laos			418	South-Eastern Asia	035	Asia
-LBN	LB	Lebanon			422	Western Asia	145	Asia
-LBR	LR	Liberia			430	Western Africa	011	Africa
-LBY	LY	Libya			434	Northern Africa	015	Africa
-LCA	LC	St. Lucia			662	Caribbean	029	Americas
-LIE	LI	Liechtenstein			438	Western Europe	155	Europe
-LKA	LK	Sri Lanka			144	Southern Asia	034	Asia
-LSO	LS	Lesotho			426	Southern Africa	018	Africa
-LTU	LT	Lithuania			440	Northern Europe	154	Europe
-LUX	LU	Luxembourg			442	Western Europe	155	Europe
-LVA	LV	Latvia			428	Northern Europe	154	Europe
-MAC	MO	Macau SAR China			446	Eastern Asia	030	Asia
-MAF	MF	St. Martin			663	Caribbean	029	Americas
-MAR	MA	Morocco			504	Northern Africa	015	Africa
-MCO	MC	Monaco			492	Western Europe	155	Europe
-MDA	MD	Moldova			498	Eastern Europe	151	Europe
-MDG	MG	Madagascar			450	Eastern Africa	014	Africa
-MDV	MV	Maldives			462	Southern Asia	034	Asia
-MEX	MX	Mexico			484	Central America	013	Americas
-MHL	MH	Marshall Islands			584	Micronesia	057	Oceania
-MKD	MK	Macedonia			807	Southern Europe	039	Europe
-MLI	ML	Mali			466	Western Africa	011	Africa
-MLT	MT	Malta			470	Southern Europe	039	Europe
-MMR	MM	Myanmar (Burma)			104	South-Eastern Asia	035	Asia
-MNE	ME	Montenegro			499	Southern Europe	039	Europe
-MNG	MN	Mongolia			496	Eastern Asia	030	Asia
-MNP	MP	Northern Mariana Islands			580	Micronesia	057	Oceania
-MOZ	MZ	Mozambique			508	Eastern Africa	014	Africa
-MRT	MR	Mauritania			478	Western Africa	011	Africa
-MSR	MS	Montserrat			500	Caribbean	029	Americas
-MTQ	MQ	Martinique			474	Caribbean	029	Americas
-MUS	MU	Mauritius			480	Eastern Africa	014	Africa
-MWI	MW	Malawi			454	Eastern Africa	014	Africa
-MYS	MY	Malaysia			458	South-Eastern Asia	035	Asia
-MYT	YT	Mayotte			175	Eastern Africa	014	Africa
-NAM	NA	Namibia			516	Southern Africa	018	Africa
-NCL	NC	New Caledonia			540	Melanesia	054	Oceania
-NER	NE	Niger			562	Western Africa	011	Africa
-NFK	NF	Norfolk Island			574	Australia and New Zealand	053	Oceania
-NGA	NG	Nigeria			566	Western Africa	011	Africa
-NIC	NI	Nicaragua			558	Central America	013	Americas
-NIU	NU	Niue			570	Polynesia	061	Oceania
-NLD	NL	Netherlands			528	Western Europe	155	Europe
-NOR	NO	Norway			578	Northern Europe	154	Europe
-NPL	NP	Nepal			524	Southern Asia	034	Asia
-NRU	NR	Nauru			520	Micronesia	057	Oceania
-NZL	NZ	New Zealand			554	Australia and New Zealand	053	Oceania
-OMN	OM	Oman			512	Western Asia	145	Asia
-PAK	PK	Pakistan			586	Southern Asia	034	Asia
-PAN	PA	Panama			591	Central America	013	Americas
-PCN	PN	Pitcairn Islands			612	Polynesia	061	Oceania
-PER	PE	Peru			604	South America	005	Americas
-PHL	PH	Philippines			608	South-Eastern Asia	035	Asia
-PLW	PW	Palau			585	Micronesia	057	Oceania
-PNG	PG	Papua New Guinea			598	Melanesia	054	Oceania
-POL	PL	Poland			616	Eastern Europe	151	Europe
-PRI	PR	Puerto Rico			630	Caribbean	029	Americas
-PRK	KP	North Korea			408	Eastern Asia	030	Asia
-PRT	PT	Portugal			620	Southern Europe	039	Europe
-PRY	PY	Paraguay			600	South America	005	Americas
-PSE	PS	Palestinian Territories			275	Western Asia	145	Asia
-PYF	PF	French Polynesia			258	Polynesia	061	Oceania
-QAT	QA	Qatar			634	Western Asia	145	Asia
-REU	RE	Réunion			638	Eastern Africa	014	Africa
+KWT	KW	Kuwait			414	Asia	Western Asia	145
+LAO	LA	Laos			418	Asia	South-Eastern Asia	035
+LBN	LB	Lebanon			422	Asia	Western Asia	145
+LBR	LR	Liberia			430	Africa	Western Africa	011
+LBY	LY	Libya			434	Africa	Northern Africa	015
+LCA	LC	St. Lucia			662	Americas	Caribbean	029
+LIE	LI	Liechtenstein			438	Europe	Western Europe	155
+LKA	LK	Sri Lanka			144	Asia	Southern Asia	034
+LSO	LS	Lesotho			426	Africa	Southern Africa	018
+LTU	LT	Lithuania			440	Europe	Northern Europe	154
+LUX	LU	Luxembourg			442	Europe	Western Europe	155
+LVA	LV	Latvia			428	Europe	Northern Europe	154
+MAC	MO	Macau SAR China			446	Asia	Eastern Asia	030
+MAF	MF	St. Martin			663	Americas	Caribbean	029
+MAR	MA	Morocco			504	Africa	Northern Africa	015
+MCO	MC	Monaco			492	Europe	Western Europe	155
+MDA	MD	Moldova			498	Europe	Eastern Europe	151
+MDG	MG	Madagascar			450	Africa	Eastern Africa	014
+MDV	MV	Maldives			462	Asia	Southern Asia	034
+MEX	MX	Mexico			484	Americas	Central America	013
+MHL	MH	Marshall Islands			584	Oceania	Micronesia	057
+MKD	MK	Macedonia			807	Europe	Southern Europe	039
+MLI	ML	Mali			466	Africa	Western Africa	011
+MLT	MT	Malta			470	Europe	Southern Europe	039
+MMR	MM	Myanmar (Burma)			104	Asia	South-Eastern Asia	035
+MNE	ME	Montenegro			499	Europe	Southern Europe	039
+MNG	MN	Mongolia			496	Asia	Eastern Asia	030
+MNP	MP	Northern Mariana Islands			580	Oceania	Micronesia	057
+MOZ	MZ	Mozambique			508	Africa	Eastern Africa	014
+MRT	MR	Mauritania			478	Africa	Western Africa	011
+MSR	MS	Montserrat			500	Americas	Caribbean	029
+MTQ	MQ	Martinique			474	Americas	Caribbean	029
+MUS	MU	Mauritius			480	Africa	Eastern Africa	014
+MWI	MW	Malawi			454	Africa	Eastern Africa	014
+MYS	MY	Malaysia			458	Asia	South-Eastern Asia	035
+MYT	YT	Mayotte			175	Africa	Eastern Africa	014
+NAM	NA	Namibia			516	Africa	Southern Africa	018
+NCL	NC	New Caledonia			540	Oceania	Melanesia	054
+NER	NE	Niger			562	Africa	Western Africa	011
+NFK	NF	Norfolk Island			574	Oceania	Australia and New Zealand	053
+NGA	NG	Nigeria			566	Africa	Western Africa	011
+NIC	NI	Nicaragua			558	Americas	Central America	013
+NIU	NU	Niue			570	Oceania	Polynesia	061
+NLD	NL	Netherlands			528	Europe	Western Europe	155
+NOR	NO	Norway			578	Europe	Northern Europe	154
+NPL	NP	Nepal			524	Asia	Southern Asia	034
+NRU	NR	Nauru			520	Oceania	Micronesia	057
+NZL	NZ	New Zealand			554	Oceania	Australia and New Zealand	053
+OMN	OM	Oman			512	Asia	Western Asia	145
+PAK	PK	Pakistan			586	Asia	Southern Asia	034
+PAN	PA	Panama			591	Americas	Central America	013
+PCN	PN	Pitcairn Islands			612	Oceania	Polynesia	061
+PER	PE	Peru			604	Americas	South America	005
+PHL	PH	Philippines			608	Asia	South-Eastern Asia	035
+PLW	PW	Palau			585	Oceania	Micronesia	057
+PNG	PG	Papua New Guinea			598	Oceania	Melanesia	054
+POL	PL	Poland			616	Europe	Eastern Europe	151
+PRI	PR	Puerto Rico			630	Americas	Caribbean	029
+PRK	KP	North Korea			408	Asia	Eastern Asia	030
+PRT	PT	Portugal			620	Europe	Southern Europe	039
+PRY	PY	Paraguay			600	Americas	South America	005
+PSE	PS	Palestinian Territories			275	Asia	Western Asia	145
+PYF	PF	French Polynesia			258	Oceania	Polynesia	061
+QAT	QA	Qatar			634	Asia	Western Asia	145
+REU	RE	Réunion			638	Africa	Eastern Africa	014
 ROM								
-ROU	RO	Romania			642	Eastern Europe	151	Europe
-RUS	RU	Russia			643	Eastern Europe	151	Europe
-RWA	RW	Rwanda			646	Eastern Africa	014	Africa
-SAU	SA	Saudi Arabia			682	Western Asia	145	Asia
-SDN	SD	Sudan			729	Northern Africa	015	Africa
-SEN	SN	Senegal			686	Western Africa	011	Africa
-SGP	SG	Singapore			702	South-Eastern Asia	035	Asia
-SGS	GS	South Georgia & South Sandwich Islands			239	Outlying Oceania	QO	Oceania
-SHN	SH	St. Helena			654	Western Africa	011	Africa
-SJM	SJ	Svalbard & Jan Mayen			744	Northern Europe	154	Europe
-SLB	SB	Solomon Islands			090	Melanesia	054	Oceania
-SLE	SL	Sierra Leone			694	Western Africa	011	Africa
-SLV	SV	El Salvador			222	Central America	013	Americas
-SMR	SM	San Marino			674	Southern Europe	039	Europe
-SOM	SO	Somalia			706	Eastern Africa	014	Africa
-SPM	PM	St. Pierre & Miquelon			666	Northern America	021	Americas
-SRB	RS	Serbia			688	Southern Europe	039	Europe
-SSD	SS	South Sudan			728	Northern Africa	015	Africa
-STP	ST	São Tomé & Príncipe			678	Middle Africa	017	Africa
-SUR	SR	Suriname			740	South America	005	Americas
-SVK	SK	Slovakia			703	Eastern Europe	151	Europe
-SVN	SI	Slovenia			705	Southern Europe	039	Europe
-SWE	SE	Sweden			752	Northern Europe	154	Europe
-SWZ	SZ	Swaziland			748	Southern Africa	018	Africa
-SXM	SX	Sint Maarten			534	Caribbean	029	Americas
-SYC	SC	Seychelles			690	Eastern Africa	014	Africa
-SYR	SY	Syria			760	Western Asia	145	Asia
-TAA	TA	Tristan da Cunha				Outlying Oceania	QO	Oceania
-TCA	TC	Turks & Caicos Islands			796	Caribbean	029	Americas
-TCD	TD	Chad			148	Middle Africa	017	Africa
-TGO	TG	Togo			768	Western Africa	011	Africa
-THA	TH	Thailand			764	South-Eastern Asia	035	Asia
-TJK	TJ	Tajikistan			762	Central Asia	143	Asia
-TKL	TK	Tokelau			772	Polynesia	061	Oceania
-TKM	TM	Turkmenistan			795	Central Asia	143	Asia
-TLS	TL	Timor-Leste			626	South-Eastern Asia	035	Asia
+ROU	RO	Romania			642	Europe	Eastern Europe	151
+RUS	RU	Russia			643	Europe	Eastern Europe	151
+RWA	RW	Rwanda			646	Africa	Eastern Africa	014
+SAU	SA	Saudi Arabia			682	Asia	Western Asia	145
+SDN	SD	Sudan			729	Africa	Northern Africa	015
+SEN	SN	Senegal			686	Africa	Western Africa	011
+SGP	SG	Singapore			702	Asia	South-Eastern Asia	035
+SGS	GS	South Georgia & South Sandwich Islands			239	Oceania	Outlying Oceania	QO
+SHN	SH	St. Helena			654	Africa	Western Africa	011
+SJM	SJ	Svalbard & Jan Mayen			744	Europe	Northern Europe	154
+SLB	SB	Solomon Islands			090	Oceania	Melanesia	054
+SLE	SL	Sierra Leone			694	Africa	Western Africa	011
+SLV	SV	El Salvador			222	Americas	Central America	013
+SMR	SM	San Marino			674	Europe	Southern Europe	039
+SOM	SO	Somalia			706	Africa	Eastern Africa	014
+SPM	PM	St. Pierre & Miquelon			666	Americas	Northern America	021
+SRB	RS	Serbia			688	Europe	Southern Europe	039
+SSD	SS	South Sudan			728	Africa	Northern Africa	015
+STP	ST	São Tomé & Príncipe			678	Africa	Middle Africa	017
+SUR	SR	Suriname			740	Americas	South America	005
+SVK	SK	Slovakia			703	Europe	Eastern Europe	151
+SVN	SI	Slovenia			705	Europe	Southern Europe	039
+SWE	SE	Sweden			752	Europe	Northern Europe	154
+SWZ	SZ	Swaziland			748	Africa	Southern Africa	018
+SXM	SX	Sint Maarten			534	Americas	Caribbean	029
+SYC	SC	Seychelles			690	Africa	Eastern Africa	014
+SYR	SY	Syria			760	Asia	Western Asia	145
+TAA	TA	Tristan da Cunha				Oceania	Outlying Oceania	QO
+TCA	TC	Turks & Caicos Islands			796	Americas	Caribbean	029
+TCD	TD	Chad			148	Africa	Middle Africa	017
+TGO	TG	Togo			768	Africa	Western Africa	011
+THA	TH	Thailand			764	Asia	South-Eastern Asia	035
+TJK	TJ	Tajikistan			762	Asia	Central Asia	143
+TKL	TK	Tokelau			772	Oceania	Polynesia	061
+TKM	TM	Turkmenistan			795	Asia	Central Asia	143
+TLS	TL	Timor-Leste			626	Asia	South-Eastern Asia	035
 TMP								
-TON	TO	Tonga			776	Polynesia	061	Oceania
-TTO	TT	Trinidad & Tobago			780	Caribbean	029	Americas
-TUN	TN	Tunisia			788	Northern Africa	015	Africa
-TUR	TR	Turkey			792	Western Asia	145	Asia
-TUV	TV	Tuvalu			798	Polynesia	061	Oceania
-TWN	TW	Taiwan			158	Eastern Asia	030	Asia
-TZA	TZ	Tanzania			834	Eastern Africa	014	Africa
-UGA	UG	Uganda			800	Eastern Africa	014	Africa
-UKR	UA	Ukraine			804	Eastern Europe	151	Europe
-UMI	UM	U.S. Outlying Islands			581	Outlying Oceania	QO	Oceania
-URY	UY	Uruguay			858	South America	005	Americas
-USA	US	United States			840	Northern America	021	Americas
-UZB	UZ	Uzbekistan			860	Central Asia	143	Asia
-VAT	VA	Vatican City			336	Southern Europe	039	Europe
-VCT	VC	St. Vincent & Grenadines			670	Caribbean	029	Americas
-VEN	VE	Venezuela			862	South America	005	Americas
-VGB	VG	British Virgin Islands			092	Caribbean	029	Americas
-VIR	VI	U.S. Virgin Islands			850	Caribbean	029	Americas
-VNM	VN	Vietnam			704	South-Eastern Asia	035	Asia
-VUT	VU	Vanuatu			548	Melanesia	054	Oceania
+TON	TO	Tonga			776	Oceania	Polynesia	061
+TTO	TT	Trinidad & Tobago			780	Americas	Caribbean	029
+TUN	TN	Tunisia			788	Africa	Northern Africa	015
+TUR	TR	Turkey			792	Asia	Western Asia	145
+TUV	TV	Tuvalu			798	Oceania	Polynesia	061
+TWN	TW	Taiwan			158	Asia	Eastern Asia	030
+TZA	TZ	Tanzania			834	Africa	Eastern Africa	014
+UGA	UG	Uganda			800	Africa	Eastern Africa	014
+UKR	UA	Ukraine			804	Europe	Eastern Europe	151
+UMI	UM	U.S. Outlying Islands			581	Oceania	Outlying Oceania	QO
+URY	UY	Uruguay			858	Americas	South America	005
+USA	US	United States			840	Americas	Northern America	021
+UZB	UZ	Uzbekistan			860	Asia	Central Asia	143
+VAT	VA	Vatican City			336	Europe	Southern Europe	039
+VCT	VC	St. Vincent & Grenadines			670	Americas	Caribbean	029
+VEN	VE	Venezuela			862	Americas	South America	005
+VGB	VG	British Virgin Islands			092	Americas	Caribbean	029
+VIR	VI	U.S. Virgin Islands			850	Americas	Caribbean	029
+VNM	VN	Vietnam			704	Asia	South-Eastern Asia	035
+VUT	VU	Vanuatu			548	Oceania	Melanesia	054
 WBG								
-WLF	WF	Wallis & Futuna			876	Polynesia	061	Oceania
-WSM	WS	Samoa			882	Polynesia	061	Oceania
-XKK	XK	Kosovo			983	Southern Europe	039	Europe
+WLF	WF	Wallis & Futuna			876	Oceania	Polynesia	061
+WSM	WS	Samoa			882	Oceania	Polynesia	061
+XKK	XK	Kosovo			983	Europe	Southern Europe	039
 XKS								
-YEM	YE	Yemen			887	Western Asia	145	Asia
-ZAF	ZA	South Africa			710	Southern Africa	018	Africa
+YEM	YE	Yemen			887	Asia	Western Asia	145
+ZAF	ZA	South Africa			710	Africa	Southern Africa	018
 ZAR								
-ZMB	ZM	Zambia			894	Eastern Africa	014	Africa
-ZWE	ZW	Zimbabwe			716	Eastern Africa	014	Africa
+ZMB	ZM	Zambia			894	Africa	Eastern Africa	014
+ZWE	ZW	Zimbabwe			716	Africa	Eastern Africa	014
 ZZZ	ZZ	Unknown Region			999			
-_EA	EA	Ceuta & Melilla				Northern Africa	015	Africa
-_IC	IC	Canary Islands				Northern Africa	015	Africa
+_EA	EA	Ceuta & Melilla				Africa	Northern Africa	015
+_IC	IC	Canary Islands				Africa	Northern Africa	015

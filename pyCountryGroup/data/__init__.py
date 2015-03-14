@@ -23,8 +23,8 @@ wb_cname=wp['worldbank']['countryname']
 un_cname=wp['Unicode_UN']['countryname']
 
 wb_r_long=wp['worldbank']['r_long']
-un_r_long=wp['Unicode_UN']['region_h']      #UN region just under the world
-un_r_long_detail=wp['Unicode_UN']['r_long']
+un_r_long=wp['Unicode_UN']['r_long']      #UN region just under the world
+un_r_long_detail=wp['Unicode_UN']['r_long_d']
 cia_r_long=wp['CIA']['r_long']
 wb_region=wp['worldbank']['region']
 un_region=wp['Unicode_UN']['region']
