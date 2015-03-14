@@ -64,7 +64,7 @@ df_i["region"]=[d_rev.get(x, None) for x in df_i.r_long]
 df_i= df_i[df_i['ISO2']!="-"]
 df_i= df_i[pd.notnull(df_i['ISO'])]
 df_output=df_i[['ISO','r_long',"region"]].copy()
-df_output.columns=['countrycode',"region",'r_long']
+df_output.columns=['countrycode','r_long',"region"]
 # Remove duplicate index PSE
 df_output=df_output.drop_duplicates()
 

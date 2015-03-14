@@ -24,8 +24,10 @@ un_cname=wp['Unicode_UN']['countryname']
 
 wb_r_long=wp['worldbank']['r_long']
 un_r_long=wp['Unicode_UN']['r_long']
+cia_r_long=wp['CIA']['r_long']
 wb_region=wp['worldbank']['region']
 un_region=wp['Unicode_UN']['region']
+cia_region=wp['CIA']['region']
 
 wb_i_long=wp['worldbank']['i_long']
 wb_incomelevel=wp['worldbank']['incomelevel']

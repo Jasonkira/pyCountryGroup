@@ -122,6 +122,11 @@ df["i_long"]=[mapping_group2groupname[x] for x in df["incomelevel"]]
 ##i_long                            High income: nonOECD
 ##Name: HKG, dtype: object
 
+
+## Removing labels " (all income levels)"
+df["r_long"]=[x.replace("(all income levels)","").strip() for x in df["r_long"]]
+
+## Exporting to pkl
 df.to_pickle("worldbank.pkl")
 
 ## Testing with the number of countries in the same region where Hong Kong is
