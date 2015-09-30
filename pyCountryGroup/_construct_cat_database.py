@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
 #歧視無邊，回頭是岸。鍵起鍵落，情真情幻。
+try:
+    import ConfigParser
+    Config = ConfigParser.ConfigParser()
+except:
+    import configparser
+    Config = configparser.ConfigParser()
 
-import ConfigParser
-Config = ConfigParser.ConfigParser()
 Config.read("config.ini")
 
 dir_source = Config.get("Directory", 'source')

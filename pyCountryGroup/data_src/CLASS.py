@@ -44,7 +44,7 @@ list_categories=[u'region', u'income_group', u'lending_category', u'other']
 df_grps['code']=[mapping_name2code.get(x, np.nan) for x in df_grps.countryname.values]
 
 ## Listing the problematic entries
-print df_grps.loc[df_grps['code']!=df_grps['countrycode']][['code','countrycode']].drop_duplicates()
+print(df_grps.loc[df_grps['code']!=df_grps['countrycode']][['code','countrycode']].drop_duplicates())
 
 ##>>> df_grps.loc[df_grps['code']!=df_grps['countrycode']][['code','countrycode']].drop_duplicates()
 ##    code countrycode
@@ -60,11 +60,11 @@ df_grps.drop('code', axis=1, inplace=True)
 
 
 ## TEST
-print df_grps.loc[(df_grps['countrycode']=="TWN")]
+print(df_grps.loc[(df_grps['countrycode']=="TWN")])
 
 ## Summary
 grouped=df_grps.groupby(by="groupcode", axis=0, sort=True)
-print grouped.count()
+print(grouped.count())
 grouped.get_group('EAS')
 
 ## Construciting a new one
@@ -90,7 +90,7 @@ for cat in list_cat:
 df["region"]=[dict_w.get(x,np.nan) for x in df.index]
 #測試漏掉的
 df[pd.isnull(df.region)]
-print len(dict_w)
+print(len(dict_w))
 
 
 # add long description
@@ -107,14 +107,14 @@ for cat in list_cat:
 df["incomelevel"]=[dict_w.get(x,np.nan) for x in df.index]
 #測試漏掉的
 df[pd.isnull(df.incomelevel)]
-print len(dict_w)
+print(len(dict_w))
 
 
 # add long description
 df["i_long"]=[mapping_group2groupname[x] for x in df["incomelevel"]]
 
 
-##print df.loc['HKG',:]
+##print(df.loc['HKG',:])
 ##countryname    Hong Kong SAR, China
 ##region                          EAS
 ##incomelevel                     NOC
@@ -131,7 +131,7 @@ df.to_pickle("worldbank.pkl")
 
 ## Testing with the number of countries in the same region where Hong Kong is
 list_target=list(df[df.region==df['region']['HKG']].countryname)
-print "There are {0} countries in the region of {1} or {2} ".format(len(list_target),df['region']['HKG'],df['r_long']['HKG'])
+print ("There are {0} countries in the region of {1} or {2} ".format(len(list_target),df['region']['HKG'],df['r_long']['HKG']))
 # There are 37 countries in the region of EAS or East Asia & Pacific
 
 # Note. Taiwan is added back by including the second spreadsheet where grouping informaiton for Taiwan is provided

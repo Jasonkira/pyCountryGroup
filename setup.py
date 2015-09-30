@@ -9,7 +9,7 @@ def extract_version():
     Extracts version values from the main matplotlib __init__.py and
     returns them as a dictionary.
     """
-    with open('pyCountryGroup/__init__.py') as fd:
+    with open('pyCountryGroup/__init__.py',encoding='utf-8') as fd:
         for line in fd.readlines():
             if (line.startswith('__version__')):
                 exec(line.strip())

@@ -16,8 +16,8 @@ usual_suspects_less={"MAC": "Macau SAR China",\
                 "HKG": "Hong Kong SAR China",\
                 }
 
-print pyCountryGroup.wp['Unicode_UN'].loc[usual_suspects.keys()]
-print pyCountryGroup.wp['worldbank'].loc[usual_suspects.keys()]
+print(pyCountryGroup.wp['Unicode_UN'].loc[usual_suspects.keys()])
+print(pyCountryGroup.wp['worldbank'].loc[usual_suspects.keys()])
 
 ## Amend the missing data
 #>>> pyCountryGroup.wp['Unicode_UN']['countryname']['ISR']
@@ -48,19 +48,19 @@ amend={'Unicode_UN':amend_un,'worldbank':amend_wb}
 ddf=dict()
 for cur in amend.keys():
     df=pyCountryGroup.wp[cur]
-    print "before",len(df)
+    print("before: {}".format(len(df)))
     df_amend=pd.DataFrame(amend[cur]).transpose()
     df=df.append(df_amend)
     df=df.drop_duplicates(take_last=True)
-    print "after",len(df)
+    print("after: {}",format(len(df)))
     ddf[cur]=df
 
 pyCountryGroup.wp=pd.Panel(ddf)
 
 #Now fixed...
 
-print pyCountryGroup.wp['Unicode_UN'].loc[usual_suspects.keys()]
-print pyCountryGroup.wp['worldbank'].loc[usual_suspects.keys()]
+print(pyCountryGroup.wp['Unicode_UN'].loc[usual_suspects.keys()])
+print(pyCountryGroup.wp['worldbank'].loc[usual_suspects.keys()])
 
 exit()
 #for a in amend.keys():
