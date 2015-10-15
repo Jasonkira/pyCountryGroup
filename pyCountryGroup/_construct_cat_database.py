@@ -40,6 +40,17 @@ for i in wp.items:
     wp[i].index.names=df.index.names
     wp[i].to_csv(".".join([i,'tsv']),sep="\t", encoding="utf8")
 
+
+
+## Post-processing country codes
+
+wp['worldbank']["countrycode2"] = wp['Unicode_UN']["countrycode2"]
+wp['CIA']["countrycode2"] = wp['Unicode_UN']["countrycode2"]
+
+##>>> a_array = wp["BeltRoad"]["inBeltRoad"].values
+##>>> (a_array==True).sum()
+##61
+
 ##>>> wp.items
 ##Index([u'Unicode_UN', u'worldbank'], dtype='object')
 ##>>> wp['worldbank']['r_long']['TWN']

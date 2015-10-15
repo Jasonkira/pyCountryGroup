@@ -25,7 +25,7 @@ def set_compare(x, y):
 
 cf = set_compare(df['m49']['numeric'], df['cldr']['numeric'])
 #print (cf)
-cf_outcomes = [sorted(list(x)) for x in cf]
+cf_outcomes = [sorted(list(x)) for x in cf][0]
 print (cf_outcomes)
 print ([len(x) for x in cf])
 

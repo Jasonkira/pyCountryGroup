@@ -2,7 +2,10 @@
 #歧視無邊，回頭是岸。鍵起鍵落，情真情幻。
 from lxml import etree
 from io import StringIO, BytesIO
+import logging
 
+# http://www.perfectlearn.com/2015/01/how-i-used-the-cia-world-factbook-to-test-my-product/
+# Quote: "The HTML files in the geos directory provide the majority of the actual content for the countries, territories, and regions. In addition, the wfbExt/sourceXML.xml file (an excerpt of which is provided below) provides a convenient mapping between the countries and accompanying regions. That is, each country record in the sourceXML.xml file includes “name”, “fips”, and “Region” attributes which effectively links countries with regions while also providing the country code (the fips field) for the individual countries (and territories). 
 tree=etree.parse("sourceXML.xml")
 
 
@@ -21,7 +24,7 @@ def parse_generic(_xpath, _com):
                 data_dict['comments']=unicode(t.getchildren()[0].text.strip())
         #debug
         if i==0:
-            print "Debug:",data_dict
+            logging.warning ("Debug: {}".format(data_dict))
         list_processed.append(data_dict)
     df__=pd.DataFrame(list_processed)
     return df__
@@ -30,9 +33,9 @@ def parse_generic(_xpath, _com):
 df = parse_generic('//country/country',"nothing" )
 #print df_basic['comments']['AX']
 #print df_basic['comments']['TW']
-print len(df)
+print (len(df))
 
-df_d=pd.read_csv('CIA_appendix-d.csv', sep='\t' , encoding="utf8" )#, na_values="-", keep_default_na=False
+df_d=pd.read_csv('CIA_appendix-d.tsv', sep='\t' , encoding="utf8" )#, na_values="-", keep_default_na=False
 
 df_i=df_d[df_d.GEC!="-"].copy()
     

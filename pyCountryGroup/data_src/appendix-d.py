@@ -57,4 +57,6 @@ df = parse_CIA_appendix('////*[@id="GetAppendix_D"]//*/tr[td[@class="category_da
 #print df_basic['comments']['TW']
 print (len(df))
 
-df.to_csv('CIA_appendix-d.csv', sep='\t', encoding="utf8")
+
+#df.to_pickle('CIA.pkl')
+df.to_csv('CIA_appendix-d.tsv', sep='\t', encoding="utf8")

@@ -138,7 +138,7 @@ df_mapping=df_mapping.reset_index().drop_duplicates(subset='numeric', take_last=
 df=df[df.region!=df.index]
 
 df_country=df[df.economic==False]
-df_country.to_csv('m49regin_country.csv', sep='\t', encoding="utf8")
+df_country.to_csv('m49regin_country.tsv', sep='\t', encoding="utf8")
 
 df_cat = df[df.economic==False].groupby(by="region")
 
