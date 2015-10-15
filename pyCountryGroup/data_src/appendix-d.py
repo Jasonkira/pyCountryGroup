@@ -14,8 +14,8 @@ except:
     r = requests.get(XML_src_url, stream=True)
     r.raw.decode_content = True
 
-    if r.status_code<>200:
-        print "Downloading the data from {0} failed. Plese check Internet connections.".format(XML_src_url)
+    if not( r.status_code == 200):
+        print ("Downloading the data from {0} failed. Plese check Internet connections.".format(XML_src_url))
         exit()
 
     ##Requests will automatically decode content from the server [as r.text]. ... You can also access the response body as bytes [as r.content].
@@ -40,7 +40,8 @@ def parse_CIA_appendix(_xpath, _com):
     for i,t in enumerate(list_matched):
         sel=list_matched[i].cssselect(".category_data")
         list_content=[x.text_content().strip() for x in sel]
-        middle3=filter(len,list_content[2].replace("\n","").split("\t"))
+        middle3=list(filter(bool,list_content[2].replace("\r","").replace("\n","").split("\t")))
+        
         middle3=middle3+[""]*(3-len(middle3))
         
         row=list_content[0:2]+middle3+list_content[3:]
@@ -54,6 +55,6 @@ def parse_CIA_appendix(_xpath, _com):
 df = parse_CIA_appendix('////*[@id="GetAppendix_D"]//*/tr[td[@class="category_data"]]',"getchildren" )
 #print df_basic['comments']['AX']
 #print df_basic['comments']['TW']
-print len(df)
+print (len(df))
 
 df.to_csv('CIA_appendix-d.csv', sep='\t', encoding="utf8")
