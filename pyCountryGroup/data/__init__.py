@@ -7,7 +7,7 @@ import os
 
 __all__ = ["iso","iso2","ison","wb_cname","un_cname",\
            "wb_r_long","un_r_long", "un_r_long_detail", "wb_region", "un_region",\
-           "wb_i_long","wb_incomelevel","meta","wp"]
+           "wb_i_long","wb_incomelevel","beltroad","meta","wp"]
 __all__ = [str(u) for u in __all__]
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -32,6 +32,8 @@ cia_region=wp['CIA']['region']
 
 wb_i_long=wp['worldbank']['i_long']
 wb_incomelevel=wp['worldbank']['incomelevel']
+
+beltroad = wp["BeltRoad"]["inBeltRoad"]
 
 meta={'iso': "Country Code (ISO 3166-1 alpha-3)",\
       'iso2': "Country Code (ISO 3166-1 alpha-2)",\
