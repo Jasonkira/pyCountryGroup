@@ -12,6 +12,7 @@ list_xpaths = [ '''//*[@id="article-content"]/wiser_content/div/div/div/div/figu
                 '''//*[@id="article-content"]/wiser_content/div/div/div/div/figure/a/@href''',
               ]
 
+
 list_variable_names = [
                 '''country_name''',
                 '''url_profile''',
@@ -52,6 +53,29 @@ for i,_xpath in enumerate(list_xpaths):
     data.append(tree.xpath(list_xpaths[i])) 
 
 
+#tree.xpath('''//*[@id="article-content"]/wiser_content/div/div/div/div/figure/a[0]''')
+## Adding region information
+
+list_xpaths.append (list_xpaths[0])
+list_variable_names.append ('''region''')
+list_regions_=[ x.getparent().getparent().getparent().getparent().getparent().getparent().getparent().getprevious().text for x in tree.xpath(list_xpaths[-1]) ]
+
+
+list_regions=[]
+for i, x in enumerate(list_regions_):
+    if x==None:
+        current=previous
+    else:
+        current=x
+        
+    list_regions.append(current)
+    previous = current
+
+    
+
+data.append(list_regions) 
+
+         
 import pandas as pd
 import numpy as np
 

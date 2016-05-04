@@ -33,7 +33,7 @@ for x in df['BeltRoad']['country_name'].values:
 
 df['BeltRoad']['countrycode'] = alpha3
 df['BeltRoad']['countrycode2'] = [dict_alpha3_alpha2.get(x,'') for x in alpha3]
-df['BeltRoad'][['countrycode', 'countrycode2', 'country_name', 'url_profile']].to_csv(file_output, sep='\t', encoding="utf8", index=False)
+df['BeltRoad'][['countrycode', 'countrycode2', 'country_name', 'region', 'url_profile']].to_csv(file_output, sep='\t', encoding="utf8", index=False)
 
 print (">> output to {}".format(file_output))
 
