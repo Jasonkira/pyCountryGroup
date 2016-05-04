@@ -24,6 +24,9 @@ from lxml.html import fromstring, tostring, parse
 from io import StringIO, BytesIO
 
 
+## Fixing the original html bugs ...replace them with <h3>
+strings_2replace= {'</div></div></div></div><h3>':'</div></div></div></div>','<p> </p></h3><h3>':'<h3>'}
+
 try:
     tree = parse(downloaded_source)
 except:
@@ -37,14 +40,18 @@ except:
         print ("Downloading the data from {0} failed. Plese check Internet connections.".format(XML_src_url))
         exit()
 
-    XML_src=r.content # r.raw.read()#r.raw#r.text
+    XML_src=r.text #content # r.raw.read()#r.raw#r.text
     #XML_encoding=r.encoding
     print(XML_encoding)
 
+    print(len(XML_src))
+    for key, value in strings_2replace.items():
+        XML_src = XML_src.replace(key, value)
+    print(len(XML_src))
+
     import codecs
     with codecs.open(downloaded_source, "w", XML_encoding) as file:
-        file.write(XML_src.decode(XML_encoding))
-
+        file.write(XML_src)#.decode(XML_encoding)
         
     tree = fromstring(XML_src)
 
@@ -67,7 +74,8 @@ for i, x in enumerate(list_regions_):
         current=previous
     else:
         current=x
-        
+        
+
     list_regions.append(current)
     previous = current
 

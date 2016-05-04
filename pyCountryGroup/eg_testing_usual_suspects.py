@@ -51,7 +51,7 @@ for cur in amend.keys():
     print("before: {}".format(len(df)))
     df_amend=pd.DataFrame(amend[cur]).transpose()
     df=df.append(df_amend)
-    df=df.drop_duplicates(take_last=True)
+    df=df.drop_duplicates(keep='last')
     print("after: {}",format(len(df)))
     ddf[cur]=df
 
