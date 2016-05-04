@@ -47,7 +47,7 @@ meta={'iso': "Country Code (ISO 3166-1 alpha-3)",\
       'un_region': "Geographic Categorization Code (UN)",\
       'wb_i_long': "Income Level (World Bank)", \
       'wb_incomelevel': "Income Level Code (World Bank)", \
-      'inBeltRoad': "Part of China’s Belt and Road Initiative (HKTDC)", \
-      'inBeltRoad_region': "Regions of China’s Belt and Road Initiative (HKTDC)", \
+      'beltroad': "Part of China’s Belt and Road Initiative (HKTDC)", \
+      'beltroad_region': "Regions of China’s Belt and Road Initiative (HKTDC)", \
       }
 

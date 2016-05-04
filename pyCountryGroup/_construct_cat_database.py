@@ -61,3 +61,7 @@ wp['CIA']["countrycode2"] = wp['Unicode_UN']["countrycode2"]
 ##u'Eastern Asia'
 ##>>> wp['Unicode_UN']['region']['TWN']
 ##u'030'
+
+
+
+# wp["BeltRoad"]["inBeltRoad_region"].values
