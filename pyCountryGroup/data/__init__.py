@@ -7,7 +7,7 @@ import os
 
 __all__ = ["iso","iso2","ison","wb_cname","un_cname",\
            "wb_r_long","un_r_long", "un_r_long_detail", "wb_region", "un_region",\
-           "wb_i_long","wb_incomelevel","beltroad","meta","wp"]
+           "wb_i_long","wb_incomelevel","beltroad","beltroad_region","meta","wp"]
 __all__ = [str(u) for u in __all__]
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -34,6 +34,7 @@ wb_i_long=wp['worldbank']['i_long']
 wb_incomelevel=wp['worldbank']['incomelevel']
 
 beltroad = wp["BeltRoad"]["inBeltRoad"]
+beltroad_region = wp["BeltRoad"]["inBeltRoad_region"]
 
 meta={'iso': "Country Code (ISO 3166-1 alpha-3)",\
       'iso2': "Country Code (ISO 3166-1 alpha-2)",\
@@ -46,5 +47,7 @@ meta={'iso': "Country Code (ISO 3166-1 alpha-3)",\
       'un_region': "Geographic Categorization Code (UN)",\
       'wb_i_long': "Income Level (World Bank)", \
       'wb_incomelevel': "Income Level Code (World Bank)", \
+      'inBeltRoad': "Part of China’s Belt and Road Initiative (HKTDC)", \
+      'inBeltRoad_region': "Regions of China’s Belt and Road Initiative (HKTDC)", \
       }
 
