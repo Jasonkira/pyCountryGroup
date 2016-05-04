@@ -17,11 +17,16 @@ def ifinBeltRoad(x):
     else:
         return False
 
-df['BeltRoad']['inBeltRoad'] = [ifinBeltRoad(c) for c in df['BeltRoad'].countrycode]
+df['BeltRoad']['inBeltRoad'] = [ifinBeltRoad(c) for c in df['BeltRoad'].countrycode]
+
 
 dict_url=df['BeltRoad_'][["countrycode","url_profile"]].set_index(["countrycode"])["url_profile"].to_dict()
+dict_region=df['BeltRoad_'][["countrycode","region"]].set_index(["countrycode"])["region"].to_dict()
 
-df['BeltRoad']['inBeltRoad_url'] = [dict_url.get(c,None) for c in df['BeltRoad'].countrycode]
+
+df['BeltRoad']['inBeltRoad_url'] = [dict_url.get(c,None) for c in df['BeltRoad'].countrycode]
+df['BeltRoad']['inBeltRoad_region'] = [dict_region.get(c,None) for c in df['BeltRoad'].countrycode]
+
 
 df_out=df['BeltRoad']
 
